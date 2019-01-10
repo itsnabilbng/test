@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.google-logo { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+    width: 20%;
+    height: 30%;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+nav {
+    float: right;
+    margin: auto;
+    position: relative;
+    nav-right: auto;
+}
+/*.search {
+    position: relative;
+    display: flex;
+    bottom: 30px;
+    left: 45%;
+    margin-top: 20px;
+    
+}
+*/
+input[type=text] {
+    width: 40%;
+    box-sizing: border-box;
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("./assets/698627-icon-111-search-512.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    position: relative;
+    left: 30%;
+  }
+  input:hover {
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24),0 10px 10px 0 rgba(0,0,0,0.19);
+
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    background-color: rgb(243, 243, 243); /* Green */
+    border: none;
+    color: rgb(139, 139, 139);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-top: 15px;
+}
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.footer {
+ bottom: 0;
+}
+.footernav {
+    float: left;
+    position: absolute;
+    top: 93%;
+}
+
+    
