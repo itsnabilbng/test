@@ -69,7 +69,7 @@ input[type=text] {
     left: 30%;
   }
   input:hover {
-    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24),0 10px 10px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
 
   }
   .container {
